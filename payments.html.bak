@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payments</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Payments</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="faculty.html">Faculty</a></li>
+                <li><a href="departments.html">Departments</a></li>
+                <li><a href="timetables.html">Timetables</a></li>
+                <li><a href="Registration">Registration</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Payments of Due</h2>
+            <p>Here are the due payments for our students:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Student Number</th>
+                        <th>Amount Due</th>
+                        <th>Due Date</th>
+                        <th>Payment Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>052241360056</td>
+                        <td>$2000.00</td>
+                        <td>2023-01-31</td>
+                        <td>Unpaid</td>
+                    </tr>
+                    <tr>
+                        <td>052241360107</td>
+                        <td>$2343.3</td>
+                        <td>2023-02-28</td>
+                        <td>Paid</td>
+                    </tr>
+                    <tr>
+                        <td>052241360109</td>
+                        <td>$1000.00</td>
+                        <td>2023-03-31</td>
+                        <td>Unpaid</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>To make a payment, please <a href="payments-portal.html">click here</a>.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Faculty Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
